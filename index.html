@@ -49,10 +49,12 @@
            
         }
         .aboutme{
-            margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-            
+            margin: 0 auto;
+        float: none; 
+        margin-bottom: 10px; 
+        }
+        li{
+          text-align: justify;
         }
         
         
@@ -90,9 +92,9 @@
                       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                         <li><a href="#aboutme" class="nav-link px-2">About Me</a></li>
                         <li><a href="#" class="nav-link px-2">Skills</a></li>
-                        <li><a href="#" class="nav-link px-2">Education</a></li>
+                        <li><a href="#edu" class="nav-link px-2">Education</a></li>
                         <li><a href="#" class="nav-link px-2">Projects</a></li>
-                        <li><a href="#" class="nav-link px-2">Co-Curricular</a></li>
+                        <li><a href="#cca" class="nav-link px-2">Co-Curricular</a></li>
                       </ul>
                 
                       <div class="col-md-3 text-end">
@@ -139,29 +141,43 @@
                   
                     
                 </div>
-                <div class="feature col">
+                <div class="feature col" id="edu">
                   <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                     <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
                   </div>
-                  <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                  <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                  </a>
-                </div>
-                <div class="feature col">
+                  <h3 class="fs-2 text-body-emphasis">Education</h3>
+                  <ul type="square">
+                    <li><mark style="background-color: aquamarine;">B.TECH-CSE - CGPA: 8.4</mark><br>
+                    G.H. Raisoni College of Engineering, Nagpur, Maharashtra, India<br>2021-2025</li>
+                    <li><mark style="background-color: aquamarine;">HSC - PERC: 99%</mark><br>
+                      Hemant Jakate College of
+                      Science and Commerce,
+                      Ngpur , Maharashtra, India<br>
+                      2019-2021
+                      </li>
+                      <li><mark style="background-color: aquamarine;">SSC - PERC: 92%</mark><BR>
+                        School Of Scholars, Nagpur,
+                        Maharashtra, India<br>
+                        2019</li>
+                    </ul>
+                  
+                </div> 
+                 <div class="feature col" id="cca">
                   <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                     <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
                   </div>
                   <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                  <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                  </a>
+                  <ul type="square">
+                    <li><mark style="background-color: aquamarine;">Hackathons</mark><br>
+                    <ul><li>SIH-2022</li><LI>SIH-2023</LI><LI>IEEE-ELEVATE'23</LI></ul></li>
+                    <li><mark style="background-color: aquamarine;">Post Holder</mark><br>
+                      <ul><li>Newsletter and Design Head of CSE department-<a href="https://www.linkedin.com/company/97196016/admin/feed/posts/">Phoenix</a></li></ul>
+                      
+                    </ul>
+                  
                 </div>
               </div>
+              
             
             
               
